@@ -166,7 +166,6 @@ public class Puntentracker : MonoBehaviour
     public void Start()
     {
         LoadScheme();
-        ResetAllPlayerprefs();
         LoadOverzicht();
     }
 
