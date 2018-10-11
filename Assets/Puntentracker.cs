@@ -629,8 +629,8 @@ public class Puntentracker : MonoBehaviour
             }
         }
 
-        progressbar2.GetComponentInChildren<Text>().text = "Week 2: " + week3score.ToString() + "/" + week3goal.ToString();
-        progressbar2.GetComponentInChildren<Image>().fillAmount = week3score / week3goal;
+        progressbar2.GetComponentInChildren<Text>().text = "Week 2: " + week2score.ToString() + "/" + week2goal.ToString();
+        progressbar2.GetComponentInChildren<Image>().fillAmount = week2score / week2goal;
 
 
 
